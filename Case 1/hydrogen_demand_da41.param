@@ -1,0 +1,12 @@
+{
+    "id": "da4115cd-1f00-437a-87fd-b258ec6449e7",
+    "name": "hydrogen_demand_da41",
+    "parameters": {
+        "name": "hydrogen_demand_da41",
+        "type": "hydrogen_demand"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

@@ -1,0 +1,746 @@
+{
+    "cells": [
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Electricity Source"
+                }
+            },
+            "id": "2bd5ba6d-3195-4947-b2e5-3a464763f18a",
+            "inPorts": [],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "electricity_source_2bd5",
+                "type": "electricity_source"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 90,
+                "y": 100
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 1
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Electricity Demand"
+                }
+            },
+            "id": "a16215a7-325b-4490-bd6a-0b0e7a9814b2",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [],
+            "parameters": {
+                "name": "electricity_demand_a162",
+                "type": "electricity_demand"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    }
+                ]
+            },
+            "position": {
+                "x": 800,
+                "y": 100
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 2
+        },
+        {
+            "angle": 0,
+            "attrs": {},
+            "id": "0404e477-6cfc-4768-8158-ca1b021a99af",
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "a3078beb-1fde-4058-8262-4a13138ecfdd"
+                    },
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "a0471747-c706-4e6e-aab5-7f9d6bdb6771"
+                    }
+                ]
+            },
+            "position": {
+                "x": 340,
+                "y": 110
+            },
+            "size": {
+                "height": 20,
+                "width": 20
+            },
+            "type": "standard.Circle",
+            "z": 3
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Heat Source"
+                }
+            },
+            "id": "49fbf0f7-6a42-4984-8c4a-5c4f476cbcc6",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "heat_source_49fb",
+                "type": "heat_source"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 70,
+                "y": 210
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 4
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Heat Pump"
+                }
+            },
+            "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+            "inPorts": [
+                "primary_in",
+                "primary_out",
+                "electricity_in"
+            ],
+            "outPorts": [
+                "secondary_in",
+                "secondary_out"
+            ],
+            "parameters": {
+                "name": "heatpump_1405",
+                "type": "heatpump"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "primary_in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "primary_in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "primary_out"
+                            }
+                        },
+                        "group": "in",
+                        "id": "primary_out"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "electricity_in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "electricity_in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "secondary_in"
+                            }
+                        },
+                        "group": "out",
+                        "id": "secondary_in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "secondary_out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "secondary_out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 460,
+                "y": 260
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 5
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "60d67ff3-49fb-4f91-a28a-02e28e01995f",
+            "source": {
+                "id": "0404e477-6cfc-4768-8158-ca1b021a99af",
+                "magnet": "portBody",
+                "port": "a0471747-c706-4e6e-aab5-7f9d6bdb6771"
+            },
+            "target": {
+                "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+                "port": "electricity_in"
+            },
+            "type": "devs.Link",
+            "z": 6
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "9aca6454-6301-4316-8983-a5374a41859d",
+            "source": {
+                "id": "0404e477-6cfc-4768-8158-ca1b021a99af",
+                "magnet": "portBody",
+                "port": "a0471747-c706-4e6e-aab5-7f9d6bdb6771"
+            },
+            "target": {
+                "id": "a16215a7-325b-4490-bd6a-0b0e7a9814b2",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 7
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "aece61ca-2094-4118-9930-2159ff406714",
+            "source": {
+                "id": "2bd5ba6d-3195-4947-b2e5-3a464763f18a",
+                "port": "out"
+            },
+            "target": {
+                "id": "0404e477-6cfc-4768-8158-ca1b021a99af",
+                "magnet": "portBody",
+                "port": "a3078beb-1fde-4058-8262-4a13138ecfdd"
+            },
+            "type": "devs.Link",
+            "z": 8
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "19b3e8ce-dd42-4157-933a-de3a0777ad1e",
+            "source": {
+                "id": "49fbf0f7-6a42-4984-8c4a-5c4f476cbcc6",
+                "port": "out"
+            },
+            "target": {
+                "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+                "port": "primary_in"
+            },
+            "type": "devs.Link",
+            "z": 9
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "4e35c995-0967-48a1-8572-7be2ffc7ee7a",
+            "source": {
+                "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+                "port": "primary_out"
+            },
+            "target": {
+                "id": "49fbf0f7-6a42-4984-8c4a-5c4f476cbcc6",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 10
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Heat Demand"
+                }
+            },
+            "id": "3248eb36-d5b8-4d80-b75c-79b0be82a354",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "heat_demand_3248",
+                "type": "heat_demand"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 820,
+                "y": 200
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 11
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "6fde6c51-2986-4059-8381-f3b7f5d6f771",
+            "source": {
+                "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+                "port": "secondary_out"
+            },
+            "target": {
+                "id": "3248eb36-d5b8-4d80-b75c-79b0be82a354",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 12
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "5923c273-c8e7-48bb-8531-3c953a24fa69",
+            "source": {
+                "id": "3248eb36-d5b8-4d80-b75c-79b0be82a354",
+                "port": "out"
+            },
+            "target": {
+                "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+                "port": "secondary_in"
+            },
+            "type": "devs.Link",
+            "z": 13
+        }
+    ]
+}

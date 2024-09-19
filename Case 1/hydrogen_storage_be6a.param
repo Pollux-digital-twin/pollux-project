@@ -1,0 +1,12 @@
+{
+    "id": "be6aa9c5-d5a4-4a67-aff8-d723ff3fa7f1",
+    "name": "hydrogen_storage_be6a",
+    "parameters": {
+        "name": "hydrogen_storage_be6a",
+        "type": "hydrogen_storage"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "49a3dda3-ec8d-4433-95de-93db3d2c9a1b",
+    "name": "electricity_source_49a3",
+    "parameters": {
+        "name": "electricity_source_49a3",
+        "type": "electricity_source"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

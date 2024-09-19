@@ -1,0 +1,12 @@
+{
+    "id": "a16215a7-325b-4490-bd6a-0b0e7a9814b2",
+    "name": "electricity_demand_a162",
+    "parameters": {
+        "name": "electricity_demand_a162",
+        "type": "electricity_demand"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

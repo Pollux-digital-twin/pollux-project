@@ -1,0 +1,879 @@
+{
+    "cells": [
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Electrolyzer"
+                }
+            },
+            "id": "d0e9d55e-9dbe-436a-8839-5cc378b6b554",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "electrolyzer_d0e9",
+                "type": "electrolyzer"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 380,
+                "y": 380
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 1
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Electricity Source"
+                }
+            },
+            "id": "49a3dda3-ec8d-4433-95de-93db3d2c9a1b",
+            "inPorts": [],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "electricity_source_49a3",
+                "type": "electricity_source"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 140,
+                "y": 190
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 2
+        },
+        {
+            "angle": 0,
+            "attrs": {},
+            "id": "95b6c144-537b-48bb-bb69-b394009300cd",
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "9b182aab-4487-4443-a4c9-3f79680be0b2"
+                    },
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "db8e91e1-6194-4c2a-a538-df885ab3b837"
+                    }
+                ]
+            },
+            "position": {
+                "x": 320,
+                "y": 210
+            },
+            "size": {
+                "height": 20,
+                "width": 20
+            },
+            "type": "standard.Circle",
+            "z": 3
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "8e376d61-8b00-49e3-89ca-e66fdf02fb08",
+            "source": {
+                "id": "49a3dda3-ec8d-4433-95de-93db3d2c9a1b",
+                "port": "out"
+            },
+            "target": {
+                "id": "95b6c144-537b-48bb-bb69-b394009300cd",
+                "magnet": "portBody",
+                "port": "9b182aab-4487-4443-a4c9-3f79680be0b2"
+            },
+            "type": "devs.Link",
+            "z": 4
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "772165cf-d344-41cc-bf50-e135d2b325c8",
+            "source": {
+                "id": "95b6c144-537b-48bb-bb69-b394009300cd",
+                "magnet": "portBody",
+                "port": "db8e91e1-6194-4c2a-a538-df885ab3b837"
+            },
+            "target": {
+                "id": "d0e9d55e-9dbe-436a-8839-5cc378b6b554",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 5
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Hydrogen Storage"
+                }
+            },
+            "id": "be6aa9c5-d5a4-4a67-aff8-d723ff3fa7f1",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [
+                "out"
+            ],
+            "parameters": {
+                "name": "hydrogen_storage_be6a",
+                "type": "hydrogen_storage"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    },
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "out"
+                    }
+                ]
+            },
+            "position": {
+                "x": 670,
+                "y": 470
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 6
+        },
+        {
+            "angle": 0,
+            "attrs": {},
+            "id": "5f35170d-3fe0-4533-985c-059fb6aaa84d",
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "770992f4-c68b-4278-b194-b1e6f10e18c4"
+                    },
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "b7ecbeb7-1315-4660-861c-5b0bda9c13b8"
+                    }
+                ]
+            },
+            "position": {
+                "x": 580,
+                "y": 400
+            },
+            "size": {
+                "height": 20,
+                "width": 20
+            },
+            "type": "standard.Circle",
+            "z": 7
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "06823199-1604-46a8-9f8d-ee9cec091801",
+            "source": {
+                "id": "d0e9d55e-9dbe-436a-8839-5cc378b6b554",
+                "port": "out"
+            },
+            "target": {
+                "id": "5f35170d-3fe0-4533-985c-059fb6aaa84d",
+                "magnet": "portBody",
+                "port": "770992f4-c68b-4278-b194-b1e6f10e18c4"
+            },
+            "type": "devs.Link",
+            "z": 8
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "eaac077a-ef4b-4a89-b085-7f999ef31157",
+            "source": {
+                "id": "5f35170d-3fe0-4533-985c-059fb6aaa84d",
+                "magnet": "portBody",
+                "port": "b7ecbeb7-1315-4660-861c-5b0bda9c13b8"
+            },
+            "target": {
+                "id": "be6aa9c5-d5a4-4a67-aff8-d723ff3fa7f1",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 9
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Hydrogen Demand"
+                }
+            },
+            "id": "da4115cd-1f00-437a-87fd-b258ec6449e7",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [],
+            "parameters": {
+                "name": "hydrogen_demand_da41",
+                "type": "hydrogen_demand"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    }
+                ]
+            },
+            "position": {
+                "x": 960,
+                "y": 380
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 10
+        },
+        {
+            "angle": 0,
+            "attrs": {},
+            "id": "f6335529-d418-44cb-8ff4-e2d0d4942449",
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            "portBody": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5
+                            }
+                        },
+                        "markup": [
+                            {
+                                "selector": "portBody",
+                                "tagName": "circle"
+                            }
+                        ],
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "edc1698f-4c2c-4e7a-9f5a-e999d51ef37b"
+                    },
+                    {
+                        "attrs": {
+                            "label": {
+                                "text": "out"
+                            }
+                        },
+                        "group": "out",
+                        "id": "4da935fb-617b-4211-b65b-e1971b98ad91"
+                    }
+                ]
+            },
+            "position": {
+                "x": 810,
+                "y": 400
+            },
+            "size": {
+                "height": 20,
+                "width": 20
+            },
+            "type": "standard.Circle",
+            "z": 11
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "452ec28d-a83a-4318-ae1a-fa0a8124efab",
+            "source": {
+                "id": "5f35170d-3fe0-4533-985c-059fb6aaa84d",
+                "magnet": "portBody",
+                "port": "b7ecbeb7-1315-4660-861c-5b0bda9c13b8"
+            },
+            "target": {
+                "id": "f6335529-d418-44cb-8ff4-e2d0d4942449",
+                "magnet": "portBody",
+                "port": "edc1698f-4c2c-4e7a-9f5a-e999d51ef37b"
+            },
+            "type": "devs.Link",
+            "z": 12
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "6ae56426-e3e4-4c81-b46d-5954331895d3",
+            "source": {
+                "id": "f6335529-d418-44cb-8ff4-e2d0d4942449",
+                "magnet": "portBody",
+                "port": "4da935fb-617b-4211-b65b-e1971b98ad91"
+            },
+            "target": {
+                "id": "da4115cd-1f00-437a-87fd-b258ec6449e7",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 13
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "36c7538e-8bf5-4d57-8949-807e72b42bba",
+            "source": {
+                "id": "be6aa9c5-d5a4-4a67-aff8-d723ff3fa7f1",
+                "port": "out"
+            },
+            "target": {
+                "id": "f6335529-d418-44cb-8ff4-e2d0d4942449",
+                "magnet": "portBody",
+                "port": "edc1698f-4c2c-4e7a-9f5a-e999d51ef37b"
+            },
+            "type": "devs.Link",
+            "z": 14
+        },
+        {
+            "angle": 0,
+            "attrs": {
+                ".label": {
+                    "fontSize": 12,
+                    "text": "Electricity Demand"
+                }
+            },
+            "id": "f9d13a8b-d161-4eab-a997-8e1e442304d7",
+            "inPorts": [
+                "in"
+            ],
+            "outPorts": [],
+            "parameters": {
+                "name": "electricity_demand_f9d1",
+                "type": "electricity_demand"
+            },
+            "ports": {
+                "groups": {
+                    "in": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "left"
+                            }
+                        },
+                        "position": {
+                            "name": "left"
+                        }
+                    },
+                    "out": {
+                        "attrs": {
+                            ".port-body": {
+                                "fill": "#000000",
+                                "magnet": true,
+                                "r": 5,
+                                "stroke": "#000"
+                            },
+                            ".port-label": {
+                                "fill": "#000"
+                            }
+                        },
+                        "label": {
+                            "position": {
+                                "args": {
+                                    "y": 10
+                                },
+                                "name": "right"
+                            }
+                        },
+                        "position": {
+                            "name": "right"
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "attrs": {
+                            ".port-label": {
+                                "text": "in"
+                            }
+                        },
+                        "group": "in",
+                        "id": "in"
+                    }
+                ]
+            },
+            "position": {
+                "x": 960,
+                "y": 200
+            },
+            "size": {
+                "height": 50,
+                "width": 100
+            },
+            "tagnames": {
+                "calculated": {},
+                "measured": {}
+            },
+            "type": "devs.Model",
+            "z": 15
+        },
+        {
+            "attrs": {
+                ".marker-target": {
+                    "d": "M 10 0 L 0 5 L 10 10 z"
+                }
+            },
+            "id": "ba324847-f57d-427e-aa6e-374d1bab6032",
+            "source": {
+                "id": "95b6c144-537b-48bb-bb69-b394009300cd",
+                "magnet": "portBody",
+                "port": "db8e91e1-6194-4c2a-a538-df885ab3b837"
+            },
+            "target": {
+                "id": "f9d13a8b-d161-4eab-a997-8e1e442304d7",
+                "port": "in"
+            },
+            "type": "devs.Link",
+            "z": 16
+        }
+    ]
+}

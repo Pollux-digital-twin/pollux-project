@@ -1,0 +1,12 @@
+{
+    "id": "49fbf0f7-6a42-4984-8c4a-5c4f476cbcc6",
+    "name": "heat_source_49fb",
+    "parameters": {
+        "name": "heat_source_49fb",
+        "type": "heat_source"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

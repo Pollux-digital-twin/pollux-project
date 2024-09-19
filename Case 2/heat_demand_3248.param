@@ -1,0 +1,12 @@
+{
+    "id": "3248eb36-d5b8-4d80-b75c-79b0be82a354",
+    "name": "heat_demand_3248",
+    "parameters": {
+        "name": "heat_demand_3248",
+        "type": "heat_demand"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

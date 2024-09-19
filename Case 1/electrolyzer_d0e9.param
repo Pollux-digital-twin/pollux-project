@@ -1,0 +1,12 @@
+{
+    "id": "d0e9d55e-9dbe-436a-8839-5cc378b6b554",
+    "name": "electrolyzer_d0e9",
+    "parameters": {
+        "name": "electrolyzer_d0e9",
+        "type": "electrolyzer"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}

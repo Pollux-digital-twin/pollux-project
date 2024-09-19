@@ -1,0 +1,12 @@
+{
+    "id": "14059451-3bbe-4059-8a84-49c191459ad5",
+    "name": "heatpump_1405",
+    "parameters": {
+        "name": "heatpump_1405",
+        "type": "heatpump"
+    },
+    "tagnames": {
+        "calculated": {},
+        "measured": {}
+    }
+}
